@@ -140,11 +140,3 @@ class rv_curve_class:
         plt.xlabel("Time [d]")
         plt.ylabel("RV [m/s]")
         plt.show()
-
-
-# In[ ]:
-
-
-rv = rv_curve_class(t0=0., p=10., e=0.5, w=np.pi/3, k=10., t_init=0., t_end=25.)
-rv.plot()
-
